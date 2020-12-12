@@ -10,10 +10,6 @@ const bodyParser = require("body-parser");
 const axios = require("axios");
 
 const config = require('./Config/Config')
-
-//221478563217-hfl0reqicjma82s5auorrvpej6pck6gq.apps.googleusercontent.com
-
-//0OU_S2pTG-dHN7uvVNjH0iwd
 app.use(cors());
 app.use(bodyParser.urlencoded({ extended: true}));
 app.use(bodyParser.json());
